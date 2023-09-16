@@ -1,8 +1,8 @@
 body {
     font-family: monospace;
     font-size: 12.5px;
-    padding-top: 4em;
-    width: 70ch;
+    padding-top: 4em 1em;
+    width: min(70ch, 100%);
     margin: auto;
 }
 
