@@ -13,5 +13,5 @@ body {
     text-transform: uppercase;
 }
 
-ul {list-style: square}
+ul {list-style: square; padding-left: 4ch}
 h2 {border-bottom: 1px dashed black}
