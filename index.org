@@ -22,7 +22,10 @@ rvanbronkhorst-at-gmail-dot-com
   - Maintained and developed for Zephir, the metadata management
     system for the [[https://hathitrust.org][HathiTrust Digital Library]].
 
-* Projects
+* Hobby Projects
+
+  - [[./lsystem/index.html][L-System Playground]] :: A simple JavaScript implemention of L-Systems.
+    
 
   - [[https://github.com/RvanB/RomBox][RomBox]] :: A lightweight launcher for emulators and games, with
     playtime tracking.
