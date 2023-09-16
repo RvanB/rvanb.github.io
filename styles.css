@@ -12,5 +12,6 @@ body {
     text-transform: uppercase;
 }
 
+dd {margin-left: 4ch}
 ul {list-style: square; padding-left: 4ch}
 h2 {border-bottom: 1px dashed black}
