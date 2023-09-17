@@ -24,7 +24,7 @@ rvanbronkhorst-at-gmail-dot-com
 
 * Hobby Projects
 
-  - [[./lsystem/index.html][L-System Playground]] :: A simple JavaScript implemention of L-Systems.
+  - [[./lsystem][L-System Playground]] :: A simple JavaScript implemention of L-Systems.
     
 
   - [[https://github.com/RvanB/RomBox][RomBox]] :: A lightweight launcher for emulators and games, with
