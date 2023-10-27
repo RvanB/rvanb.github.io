@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="script.js"></script>
+    <style type="text/css">
+      #canvas {
+	  border: 1px solid black;
+      }
+      #container {
+	  display: flex;
+	  flex-direction: row;
+      }
+      #canvas-stack {
+	  position: relative;
+	  width: 800px;
+	  height: 800px;
+      }
+      #canvas-stack:hover {
+	  cursor: none;
+      }
+      canvas {
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="canvas-stack">
+	<canvas id="tool-canvas" width="800" height="800"></canvas>
+	<canvas id="canvas" width="800" height="800"></canvas>
+      </div>
+      <div>
+	Radio button to select tools
+
+
+
+	<fieldset>
+	  <legend>Tool</legend>
+	  <div>
+	    <input type="radio" name="tool" id="select" value="select" checked>
+	    <label for="select">Selector</label>
+	  </div>
+	  <div>
+	    <input type="radio" name="tool" id="draw" value="draw">
+	    <label for="draw">Draw</label>
+	  </div>
+
+	</fieldset>
+
+
+	
+	
+	
+      </div>
+    </div>
+  </body>
+</html>
