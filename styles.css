@@ -34,16 +34,14 @@ body {
 }
 
 a {
-    color: #888;
+    color: #808080;
     text-decoration: none;
     font-variant: all-petite-caps;
 }
 
-
-
 #content {
     height: 20em;
-    border: 1px solid black;
+    border: 1px solid #808080;
 }
 
 #content p {
@@ -64,3 +62,10 @@ a:hover {
     height: 2em;
 }
 
+/* # Dark mode */
+@media (prefers-color-scheme: dark) {
+	body {
+	    background-color: black;
+	    color: white;
+	}
+}
