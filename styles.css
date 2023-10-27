@@ -3,6 +3,7 @@ html, body {margin: 0; height: 100%;}
 body {
     font-family: verdigris-mvb-pro-big;
     font-size: 24pt;
+    display: grid;
 }
 
 #container {
