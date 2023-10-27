@@ -1,17 +1,66 @@
+html, body {margin: 0; height: 100%;}
+
 body {
-    font-family: monospace;
-    font-size: 12.5px;
-    padding: 4em 1em;
-    width: min(70ch, 100%);
-    margin: auto;
+    font-family: "Verdigris MVB Pro Big";
+    font-size: 24pt;
 }
 
-.title, h1, h2, h3, h4, h5, h6 {
-    font-size: 12.5px;
-    text-align: left;
-    text-transform: uppercase;
+#container {
+    height: 100%;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-dd {margin-left: 4ch}
-ul {list-style: square; padding-left: 4ch}
-h2 {border-bottom: 1px dashed black}
+#links {
+    margin: 0;
+    text-align: right;
+    font-size: 18pt;
+}
+
+#links li:before {
+  content: '\00a0\2022\00a0\00a0';
+}
+
+#links li:first-child:before {
+  content: '';
+}
+
+#links li {
+    display: inline;
+}
+
+a {
+    color: #888;
+    text-decoration: none;
+    font-variant: all-petite-caps;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+#content {
+    height: 20em;
+    border: 1px solid black;
+}
+
+#content p {
+    margin: 0.5in 0.8in;
+    hyphens: auto;
+}
+
+#content a {
+    font-variant: all-petite-caps;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #888;
+}
+.spacer {
+    height: 2em;
+}
+
