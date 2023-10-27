@@ -39,10 +39,7 @@ a {
     font-variant: all-petite-caps;
 }
 
-a:hover {
-    text-decoration: underline;
-    text-decoration-style: dashed;
-}
+
 
 #content {
     height: 20em;
@@ -55,11 +52,14 @@ a:hover {
 }
 
 #content a {
-    font-variant: all-petite-caps;
-    text-decoration: none;
-    letter-spacing: 0.1em;
-    color: #888;
+    letter-spacing: 0.2em;
 }
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
 .spacer {
     height: 2em;
 }
