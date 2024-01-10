@@ -4,19 +4,19 @@
     <script type="text/javascript" src="script.js"></script>
     <style type="text/css">
       #container {
-	  display: flex;
+        display: flex;
       }
 
       .flex-item {
-	  margin: 10px;
+          margin: 10px;
       }
-      
+
       #container ul {
-	  list-style-type: none;
-	  padding: 0;
+          list-style-type: none;
+          padding: 0;
       }
       textarea {
-	  vertical-align: top;
+          vertical-align: top;
       }
     </style>
   </head>
@@ -25,38 +25,37 @@
     <div id="container">
       <canvas class="flex-item" id="canvas" width="600" height="600" style="border: 1px solid black"></canvas>
       <div class="flex-item">
-	<b>Alphabet</b>
-	<ul>
-	  <li>F: Step and draw</li>
-	  <li>f: Step without drawing</li>
-	  <li>+: Turn left</li>
-	  <li>-: Turn right</li>
-	  <li>[: Push state</li>
-	  <li>]: Pop state</li>
-	</ul>
-	<hr />
-	<b>L System</b><br/>
-	<ul>
-	  <li>Axiom: <input type="text" id="axiom" /></li>
-	  <li>Productions:
-	    <textarea id="rules"></textarea>
-	  </li>
-	  <li>Iterations: <input type="number" id="iterations" value="1" /></li>
-	</ul>
-	<hr />
-	<b>Turtle initial state</b><br />
-	<ul>
-	  <li>Heading: <input type="number" id="heading" value="0" /></li>
-	  <li>X: <input type="number" id="x" value="0"/></li>
-	  <li>Y: <input type="number" id="y" value="0" /></li>
-	  <li>Line Width: <input type="number" id="lineWidth" value="1" /></li>
-	  <li>Line Length: <input type="number" id="lineLength" value="10" /></li>
-	  <li>Angle Increment: <input type="number" id="angleIncrement" value="90" /></li>
-	  <li>Color: <input type="text" id="lineColor" value="green" /></li>
-	</ul>
-	<button onclick="draw()">Draw</button><br />
+        <b>Alphabet</b>
+        <ul>
+          <li>F: Step and draw</li>
+          <li>f: Step without drawing</li>
+          <li>+: Turn left</li>
+          <li>-: Turn right</li>
+          <li>[: Push state</li>
+          <li>]: Pop state</li>
+        </ul>
+        <hr />
+        <b>L System</b><br/>
+        <ul>
+          <li>Axiom: <input type="text" id="axiom" /></li>
+          <li>Productions:
+            <textarea id="rules"></textarea>
+          </li>
+          <li>Iterations: <input type="number" id="iterations" value="1" /></li>
+        </ul>
+        <hr />
+        <b>Turtle initial state</b><br />
+        <ul>
+          <li>Heading: <input type="number" id="heading" value="0" /></li>
+          <li>X: <input type="number" id="x" value="0"/></li>
+          <li>Y: <input type="number" id="y" value="0" /></li>
+          <li>Line Width: <input type="number" id="lineWidth" value="1" /></li>
+          <li>Line Length: <input type="number" id="lineLength" value="10" /></li>
+          <li>Angle Increment: <input type="number" id="angleIncrement" value="90" /></li>
+          <li>Color: <input type="text" id="lineColor" value="green" /></li>
+        </ul>
+        <button onclick="draw()">Draw</button><br />
       </div>
     </div>
-    
   </body>
 </html>
