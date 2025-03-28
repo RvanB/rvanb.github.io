@@ -37,7 +37,11 @@ body {
 a {
     color: #808080;
     text-decoration: none;
+}
+
+.small-caps {
     font-variant: all-petite-caps;
+    letter-spacing: 0.2em;
 }
 
 #content {
@@ -48,10 +52,6 @@ a {
 #content p {
     margin: 0.5in 0.8in;
     hyphens: auto;
-}
-
-#content a {
-    letter-spacing: 0.2em;
 }
 
 a:hover {
